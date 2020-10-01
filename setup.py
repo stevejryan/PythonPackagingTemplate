@@ -13,7 +13,7 @@ setup(
     packages=find_packages(),
     entry_points={
         'console_scripts': [
-            'hello-world-cli = hello_world.main:main',
+            'hello-world-cli = testPackage.hello_world.main:main',
         ],
     },
 )
